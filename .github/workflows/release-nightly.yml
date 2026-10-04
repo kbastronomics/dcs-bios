@@ -93,7 +93,6 @@ jobs:
           allowUpdates: true
           artifactErrorsFailBuild: true
           artifacts: './Scripts/${{ steps.filename.outputs.zip }},./Programs/Arduino_Tools.zip'
-          commit: main
           makeLatest: true
           name: 'DCS-BIOS Nightly ${{ steps.date.outputs.date }}'
           prerelease: true
